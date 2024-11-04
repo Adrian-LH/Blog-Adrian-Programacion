@@ -1,0 +1,95 @@
+
+
+img{
+    width: 500px;
+}
+
+dt{
+    font-weight: 800;
+    margin-top: 10px;
+}
+.items{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.lista-articulos{
+    text-decoration: underline;
+    color: black;
+    padding-top: 20px;
+}
+
+
+.body{
+    margin: 0 20px 0 20px;
+}
+
+#imagen{
+    display: flex;
+    justify-content: center;
+}
+
+#imagen img{
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+    transition: width 1s;
+}
+
+#imagen img:hover{
+    width: 600px;
+}
+
+.boton_like{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: solid black 2px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+}
